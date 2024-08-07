@@ -1,0 +1,22 @@
+{
+	"name": "webcrawler",
+	"version": "1.0.0",
+	"description": "boot.dev projet",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"start": "node main.js",
+		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+	},
+	"jest": {
+		"transform": {}
+	},
+	"author": "karell",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^27.0.0"
+	},
+	"dependencies": {
+		"jsdom": "^24.1.1"
+	}
+}
